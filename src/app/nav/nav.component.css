@@ -4,4 +4,11 @@
 .mat-toolbar.mat-primary {
     background: #6C4C32;
     color: white;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
 }
+.content{
+    margin-top:65px ;
+}
+

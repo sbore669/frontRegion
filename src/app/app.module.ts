@@ -13,6 +13,7 @@ import { AcceuilComponent } from './acceuil/acceuil.component';
 import { RegionsComponent } from './regions/regions.component';
 import { DetailsRegionsComponent } from './details-regions/details-regions.component';
 import { NavComponent } from './nav/nav.component';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { NavComponent } from './nav/nav.component';
     RegionsComponent,
     DetailsRegionsComponent,
     NavComponent,
+    AccountComponent,
     
   ],
   imports: [
