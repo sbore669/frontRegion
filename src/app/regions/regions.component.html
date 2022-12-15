@@ -1,23 +1,24 @@
 <div class="Container">   
     <div class="header">
         <div class="Nompays">Les Regions du Mali</div>
-        <div class="btnd"><button class="btn1">Ajouter</button></div>
+        <div class="btnd"><button class="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">Ajouter</button></div>
     </div>
     <div class="regions_alig">
 
     <div class="region_card">
         <div class="region_gauche">
-            <div class="rg_Nom"><h1>Kayes</h1>
+            <div class="rg_Nom"><h1>Bamako</h1>
                 <p class="descr">Kayes est une grande ville et une commune de l’ouest du Mali à 495 km au nord-ouest de Bamako, 
                 sur les rives du fleuve Sénégal. Elle est la capitale de la première région administrative et
                  le chef-lieu du cercle qui porte son nom.</p>
             </div>
-            <div class="btn_voirp"><button class="voirP">details</button></div>
+            <div class="btn_voirp"><button routerLink="/detailsr" class="voirP">details</button></div>
         </div>
         <div class="region_droite">
-            <img src="assets/kayes.jpg" alt="" srcset="">
+            <img src="assets/bko.jpg" alt="" srcset="">
         </div>
     </div>
+    
 
     <div class="region_card">
         <div class="region_gauche">
@@ -26,7 +27,7 @@
                 sur les rives du fleuve Sénégal. Elle est la capitale de la première région administrative et
                  le chef-lieu du cercle qui porte son nom.</p>
             </div>
-            <div class="btn_voirp"><button class="voirP">details</button></div>
+            <div class="btn_voirp"><button routerLink="/detailsr" class="voirP">details</button></div>
         </div>
         <div class="region_droite">
             <img src="assets/kayes.jpg" alt="" srcset="">
@@ -41,7 +42,7 @@
                 sur les rives du fleuve Sénégal. Elle est la capitale de la première région administrative et
                  le chef-lieu du cercle qui porte son nom.</p>
             </div>
-            <div class="btn_voirp"><button class="voirP">details</button></div>
+            <div class="btn_voirp"><button routerLink="/detailsr" class="voirP">details</button></div>
         </div>
         <div class="region_droite">
             <img src="assets/malicarte.png" alt="" srcset="">
@@ -55,7 +56,7 @@
                 sur les rives du fleuve Sénégal. Elle est la capitale de la première région administrative et
                  le chef-lieu du cercle qui porte son nom.</p>
             </div>
-            <div class="btn_voirp"><button class="voirP">details</button></div>
+            <div class="btn_voirp"><button routerLink="/detailsr" class="voirP">details</button></div>
         </div>
         <div class="region_droite">
             <img src="assets/kayes.jpg" alt="" srcset="">
@@ -69,7 +70,7 @@
                 sur les rives du fleuve Sénégal. Elle est la capitale de la première région administrative et
                  le chef-lieu du cercle qui porte son nom.</p>
             </div>
-            <div class="btn_voirp"><button class="voirP">details</button></div>
+            <div class="btn_voirp"><button routerLink="/detailsr" class="voirP">details</button></div>
         </div>
         <div class="region_droite">
             <img src="assets/kayes.jpg" alt="" srcset="">
@@ -83,7 +84,7 @@
                 sur les rives du fleuve Sénégal. Elle est la capitale de la première région administrative et
                  le chef-lieu du cercle qui porte son nom.</p>
             </div>
-            <div class="btn_voirp"><button class="voirP">details</button></div>
+            <div class="btn_voirp"><button routerLink="/detailsr" class="voirP">details</button></div>
         </div>
         <div class="region_droite">
             <img src="assets/kayes.jpg" alt="" srcset="">
@@ -94,3 +95,30 @@
 
     
 </div>
+
+<!-- modal ajouter region -->
+<!-- Button trigger modal -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin modal ajouter region -->

@@ -14,6 +14,7 @@ import { RegionsComponent } from './regions/regions.component';
 import { DetailsRegionsComponent } from './details-regions/details-regions.component';
 import { NavComponent } from './nav/nav.component';
 import { AccountComponent } from './account/account.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AccountComponent } from './account/account.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    NgbModule
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

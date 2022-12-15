@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { AccountComponent } from './account/account.component';
+import { DetailsRegionsComponent } from './details-regions/details-regions.component';
 import { RegionsComponent } from './regions/regions.component';
 
 const routes: Routes = [
@@ -9,7 +10,7 @@ const routes: Routes = [
   { path:'acceuil', component:AcceuilComponent },
   { path:'regions', component:RegionsComponent },
   { path:'account', component:AccountComponent },
-  { path:'detailsr', component:RegionsComponent },
+  { path:'detailsr', component:DetailsRegionsComponent },
 ];
 
 @NgModule({
