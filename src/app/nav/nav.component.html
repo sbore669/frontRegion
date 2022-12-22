@@ -3,10 +3,29 @@
     <span class="example-spacer"></span>
     <a mat-button routerLink="acceuil">Acceuil</a>
     <a mat-button routerLink="regions">Regions</a>
-    <a mat-button routerLink="account"><mat-icon>account_circle</mat-icon></a>
+    <a mat-button  (click)="logout()"><mat-icon>logout</mat-icon>Deconnexion</a>
 </mat-toolbar>
 <div class="content">
-    <router-outlet ></router-outlet>
+    <router-outlet></router-outlet>
 </div>
+<footer class="text-center mt-5 mb-md-0 footn">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Form -->
+        <section class="">
+            <form action="">
+                <!--Grid row-->
+                <!--Grid row-->
+            </form>
+        </section>
+        <!-- Section: Form -->
+    </div>
+    <!-- Grid container -->
 
-
+    <!-- Copyright -->
+    <div class="text-center p-3">
+        © 2022 Copyright:
+        <a class="text-dark">Souleymane Bore</a>
+    </div>
+    <!-- Copyright -->
+</footer>
